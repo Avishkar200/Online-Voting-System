@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background:linear-gradient(pink,orange);
+   
+}
+#headerSection{
+    padding:5px;
+}
+
+#headerSection h1{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+ padding:10px;
+ border-radius: 5px;
+}
+
+#dropbox{
+    padding:10px;
+    border-radius: 5px;
+    width:20%;
+    border-style: solid;
+}
+#loginbtn{
+    padding:10px;
+    border-radius: 5px;
+    background-color:#40eb34;
+    color:white;
+    font-weight:bold;
+}
+

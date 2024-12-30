@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <style>
+        #a{
+        border: 2px solid black;
+        width:24.5% ;
+        padding:10px;
+        
+        box-shadow: 50px 50px 150px red inset;
+        }
+        #b{
+            border:2px solid black;
+            width:25.8% ;
+            background-color:rgb(156, 156, 237);
+
+        }
+        </style>
+    <div id="headerSection">
+        <h1 style="color:black;font-family: Arial, Helvetica, sans-serif;text-shadow: 2px 2px red;">Online Voting System</h1>
+       
+    </div>
+    
+    <div id="bodySection">
+    <form action="api/login.php" method="POST">
+        <center>
+        <div id="b">
+        <h2>Login</h2>
+        </div>
+        <div id="a">
+        <input type="number" name="mobile" placeholder="Enter mobile no."><br><br>
+        <input type="password" name="password" placeholder="Enter password"><br><br>
+        <select id="dropbox" name="role">
+            <option value="1">Voter</option>
+            <option value="2">Group</option>
+        </select><br><br>
+        <button id=loginbtn>Login</button><br><br>
+        New user?<a href="../routes/register.html/">Register here</a>
+    </div>
+    </center>
+    </form>
+    </div>
+</body>
+</html>
